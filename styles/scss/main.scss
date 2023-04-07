@@ -1,0 +1,128 @@
+@import "colors";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+        height: 36px;
+        background-color: $wildsand;
+    }
+
+    &__top-icons {
+        display: flex;
+        gap: 15px;
+        margin-top: 15px;
+
+
+        li {
+            list-style: none;
+        }
+    }
+
+    &__top-links {
+        display: flex;
+        gap: 10px;
+
+        div {
+            font-size: 14px;
+
+            a {
+                text-decoration: none;
+                color: $black;
+
+            }
+
+
+            a:hover {
+                color: $gray;
+
+            }
+        }
+
+    }
+}
+
+.header__nav {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+
+    .nike-icon {
+        width: 80px;
+        max-width: 90;
+
+        a {
+            color: $black;
+            padding-left: 15px;
+        }
+    }
+
+    &-links {
+        ul{
+            gap: 20px;
+            li {
+                list-style: none;
+            }
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            border: none;
+            background-color: $white;
+            
+        }
+
+    }
+
+
+    &-actions-search {
+     
+        position: relative;
+        input{
+        height: 40px;
+        width: 180px;
+        border: none;
+        border-radius: 50px;
+        background-color: $wildsand;
+        }
+        button{
+            width: 40px;
+            height: 36px;
+            position: absolute;
+            left: 0;
+            bottom: 5%;
+            border: none;
+            background-color: transparent;
+        }
+        button:hover{
+            border-radius: 50%;
+            background-color: $mercuri;
+        }
+        a{
+            width: 40px;
+            height: 40px;
+            color: $black;
+            margin-left: 20px;
+        }
+        a:hover{
+            border-radius: 50%;
+            background-color: $mercuri;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+    }
+   
+}
