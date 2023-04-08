@@ -124,5 +124,74 @@
             border-radius: 50%;
         }
     }
-   
 }
+
+.free_shiping{
+    &-text{
+        background-color: $wildsand;
+        height: 58px;
+        font-weight: 600;
+        display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+        
+      }
+            
+        p{
+            margin-bottom: 0;
+        }
+
+            a{
+                font-size: 10px;
+                color: $black;  
+                margin-bottom: 5px;
+            }
+        
+        &-imgandtext
+        {
+            margin: 0 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+                text-align: center;
+                font-size: 20px;
+                margin-top: 40px;
+            }
+
+
+            span{
+                width: 600px;
+                font-weight: 1000;
+                font-size: 60px;
+                text-align: center;
+                line-height: 50px;
+                letter-spacing: -3px;
+                word-spacing: -3px;
+            }
+        }
+        
+        img{
+           width: 100%;
+           height: 600px;
+        }    
+        button{
+            width: 90px;
+            height: 40px;
+            border: none;
+            background-color: $black;
+            border-radius: 40px;
+            padding-bottom: 8px;
+            padding-left: 2px;
+            padding-top: 5px;
+            margin-top: 50px;
+            a{
+                color: $white;
+                text-decoration: none;
+                font-size: 15px;
+            }
+        }
+    }
