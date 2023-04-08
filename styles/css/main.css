@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .header__top {
   display: flex;
   justify-content: space-between;
@@ -156,6 +161,46 @@
   color: #fff;
   text-decoration: none;
   font-size: 15px;
+}
+.free_shiping button:hover {
+  background-color: gray;
+}
+
+.always_iconic {
+  margin: 0 50px;
+}
+.always_iconic h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.always_iconic img {
+  width: 467px;
+  height: 515px;
+}
+.always_iconic a {
+  text-decoration: none;
+  color: #000;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.always_iconic-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  width: 100%;
+}
+.always_iconic-box1 {
+  display: flex;
+  flex-direction: column;
+}
+.always_iconic-box2 {
+  display: flex;
+  flex-direction: column;
+}
+.always_iconic-box3 {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=main.css.map */
