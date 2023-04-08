@@ -203,4 +203,58 @@ a {
   flex-direction: column;
 }
 
+.happening_now {
+  margin: 100px 50px 0;
+}
+.happening_now h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.happening_now-img {
+  position: relative;
+}
+.happening_now-img img {
+  width: 100%;
+  position: relative;
+}
+.happening_now-img p {
+  position: absolute;
+  font-weight: 1000;
+  font-size: 60px;
+  letter-spacing: -5px;
+  word-spacing: 8px;
+  color: #fff;
+  top: 15%;
+  left: 3%;
+}
+.happening_now-img span {
+  position: absolute;
+  color: #fff;
+  top: 45%;
+  left: 3%;
+}
+.happening_now-img button {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  border-radius: 40px;
+  padding-bottom: 8px;
+  padding-left: 2px;
+  padding-top: 5px;
+  margin-top: 50px;
+  left: 3%;
+  top: 50%;
+}
+.happening_now-img button a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+}
+.happening_now-img button:hover {
+  background-color: #E1E1E1;
+}
+
 /*# sourceMappingURL=main.css.map */
