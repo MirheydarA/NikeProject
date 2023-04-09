@@ -1,11 +1,12 @@
 @import "colors";
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: $black;
 }
@@ -73,34 +74,39 @@ a{
     }
 
     &-links {
-        ul{
+        ul {
             gap: 20px;
+
             li {
                 list-style: none;
             }
+
             display: flex;
             justify-content: center;
         }
-        button{
+
+        button {
             border: none;
             background-color: $white;
-            
+
         }
 
     }
 
 
     &-actions-search {
-     
+
         position: relative;
-        input{
-        height: 40px;
-        width: 180px;
-        border: none;
-        border-radius: 50px;
-        background-color: $wildsand;
+
+        input {
+            height: 40px;
+            width: 180px;
+            border: none;
+            border-radius: 50px;
+            background-color: $wildsand;
         }
-        button{
+
+        button {
             width: 40px;
             height: 36px;
             position: absolute;
@@ -109,17 +115,20 @@ a{
             border: none;
             background-color: transparent;
         }
-        button:hover{
+
+        button:hover {
             border-radius: 50%;
             background-color: $mercuri;
         }
-        a{
+
+        a {
             width: 40px;
             height: 40px;
             color: $black;
             margin-left: 20px;
         }
-        a:hover{
+
+        a:hover {
             border-radius: 50%;
             background-color: $mercuri;
             width: 80px;
@@ -129,115 +138,250 @@ a{
     }
 }
 
-.free_shiping{
-    &-text{
+.free_shiping {
+    &-text {
         background-color: $wildsand;
         height: 58px;
         font-weight: 600;
         display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-     align-items: center;
-        
-      }
-            
-        p{
-            margin-bottom: 0;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    a {
+        font-size: 10px;
+        color: $black;
+        margin-bottom: 5px;
+    }
+
+    &-imgandtext {
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 40px;
         }
 
-            a{
-                font-size: 10px;
-                color: $black;  
-                margin-bottom: 5px;
-            }
-        
-        &-imgandtext
-        {
-            margin: 0 50px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
 
-            p{
-                text-align: center;
-                font-size: 20px;
-                margin-top: 40px;
-            }
-
-
-            span{
-                width: 600px;
-                font-weight: 1000;
-                font-size: 60px;
-                text-align: center;
-                line-height: 50px;
-                letter-spacing: -3px;
-                word-spacing: -3px;
-            }
-        }
-        
-        img{
-           width: 100%;
-           height: 600px;
-        }    
-        button{
-            width: 90px;
-            height: 40px;
-            border: none;
-            background-color: $black;
-            border-radius: 40px;
-            padding-bottom: 8px;
-            padding-left: 2px;
-            padding-top: 5px;
-            margin-top: 50px;
-            a{
-                color: $white;
-                text-decoration: none;
-                font-size: 15px;
-            }
-        }
-        button:hover{
-            background-color: $gray;
+        span {
+            width: 600px;
+            font-weight: 1000;
+            font-size: 60px;
+            text-align: center;
+            line-height: 50px;
+            letter-spacing: -3px;
+            word-spacing: -3px;
         }
     }
 
-.always_iconic{
-  margin: 0 50px;
-    h2{
+    img {
+        width: 100%;
+        height: 600px;
+    }
+
+    button {
+        width: 90px;
+        height: 40px;
+        border: none;
+        background-color: $black;
+        border-radius: 40px;
+        padding-bottom: 8px;
+        padding-left: 2px;
+        padding-top: 5px;
+        margin-top: 50px;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+    }
+
+    button:hover {
+        background-color: $gray;
+    }
+}
+
+.always_iconic {
+    margin: 0 50px;
+
+    h2 {
         margin-bottom: 30px;
         font-weight: 500;
         font-size: 25px;
     }
 
-    img{
+    img {
         width: 467px;
         height: 515px;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: $black;
         margin-top: 20px;
         font-size: 20px;
     }
-    &-boxes{
+
+    &-boxes {
         display: flex;
         justify-content: space-between;
         // justify-content: space-around;
         margin: 0px;
         width: 100%;
     }
-    &-box1{
-        display: flex;
-        flex-direction: column;
-    }
-    &-box2{
-        display: flex;
-        flex-direction: column;
-    }
-    &-box3{
+
+    &-box1 {
         display: flex;
         flex-direction: column;
     }
 
-}    
+    &-box2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-box3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+.tee-up-title {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.tee-up {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin-top: 20px;
+
+
+    &-img-pt1 {
+        width: 910px;
+        height: 952px;
+        position: relative;
+        background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/66910ca7-1578-4e69-9c30-91e858a66c3a/nike-just-do-it.jpg);
+
+        &-desc {
+            color: aliceblue;
+            position: absolute;
+            bottom: 20px;
+            left: 50px;
+
+            p{
+                line-height: 5px;
+            }
+
+        }
+
+        &-btn {
+            width: 79.38px;
+            height: 38px;
+            background-color: $white;
+            border-radius: 20px;
+            padding: 6px 20px;
+            margin-top: 20px;
+
+            a {
+                text-decoration: none;
+                color: $black;
+            }
+        }
+
+    }
+
+    &-img-pt2 {
+        width: 910px;
+        height: 952px;
+        background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_869,c_limit/818383a5-01a9-4421-83b0-b239f063d6ae/nike-just-do-it.jpg);
+        position: relative;
+        background-size: cover;
+
+        &-desc {
+            color: aliceblue;
+            position: absolute;
+            bottom: 20px;
+            left: 50px;
+
+            p{
+                line-height: 5px;
+            }
+
+        }
+
+        &-btn {
+            width: 79.38px;
+            height: 38px;
+            background-color: $white;
+            border-radius: 20px;
+            padding: 6px 20px;
+            margin-top: 20px;
+
+            a {
+                text-decoration: none;
+                color: $black;
+            }
+        }
+    }
+}
+
+.best-of-airmax-title{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.best-of-airmax{
+    &-img{
+        width: 1824;
+        height: 1198;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    &-dec-act{
+        text-align: center;
+        margin-top: 20px;
+        h3{
+            font-size: 50px;
+            font-weight: 700;
+        }
+    }
+    &-buttons{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        div{
+            width: 147px;
+            height: 38px;
+            border-radius: 40px;
+            background-color: $black;
+            align-items: center;
+            text-align: center;
+            padding: 6px 20px;
+            
+        }
+        a{           
+            color: $white;
+            text-decoration: none;
+            
+        }
+    }
+}

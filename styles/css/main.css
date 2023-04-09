@@ -203,4 +203,111 @@ a {
   flex-direction: column;
 }
 
+.tee-up-title {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.tee-up {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+.tee-up-img-pt1 {
+  width: 910px;
+  height: 952px;
+  position: relative;
+  background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/66910ca7-1578-4e69-9c30-91e858a66c3a/nike-just-do-it.jpg);
+}
+.tee-up-img-pt1-desc {
+  color: aliceblue;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+.tee-up-img-pt1-desc p {
+  line-height: 5px;
+}
+.tee-up-img-pt1-btn {
+  width: 79.38px;
+  height: 38px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 6px 20px;
+  margin-top: 20px;
+}
+.tee-up-img-pt1-btn a {
+  text-decoration: none;
+  color: #000;
+}
+.tee-up-img-pt2 {
+  width: 910px;
+  height: 952px;
+  background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_869,c_limit/818383a5-01a9-4421-83b0-b239f063d6ae/nike-just-do-it.jpg);
+  position: relative;
+  background-size: cover;
+}
+.tee-up-img-pt2-desc {
+  color: aliceblue;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+.tee-up-img-pt2-desc p {
+  line-height: 5px;
+}
+.tee-up-img-pt2-btn {
+  width: 79.38px;
+  height: 38px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 6px 20px;
+  margin-top: 20px;
+}
+.tee-up-img-pt2-btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+.best-of-airmax-title {
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.best-of-airmax-img {
+  width: 1824;
+  height: 1198;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.best-of-airmax-dec-act {
+  text-align: center;
+  margin-top: 20px;
+}
+.best-of-airmax-dec-act h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.best-of-airmax-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.best-of-airmax-buttons div {
+  width: 147px;
+  height: 38px;
+  border-radius: 40px;
+  background-color: #000;
+  align-items: center;
+  text-align: center;
+  padding: 6px 20px;
+}
+.best-of-airmax-buttons a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */
