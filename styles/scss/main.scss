@@ -119,6 +119,35 @@ a {
     }
   }
 }
+.sale-dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 400px;
+  top: 13.2%;
+  left: 0;
+  .dropdown_content{
+    display: flex;
+  }
+
+  
+ul{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+}
+
+.sale-dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .free_shiping {
   &-text {
@@ -257,7 +286,7 @@ a {
     }
     span {
       position: absolute;
-      // font-size: ;
+
       color: $white;
       top: 45%;
       left: 3%;
@@ -290,7 +319,7 @@ a {
 
 .footer-container {
   position: relative;
-  height: 434px;
+  height: 362px;
   width: 100%;
   background-color: #111111;
 
