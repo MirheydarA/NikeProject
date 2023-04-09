@@ -257,4 +257,130 @@ a {
   background-color: #E1E1E1;
 }
 
+.footer-container {
+  position: relative;
+  height: 434px;
+  width: 100%;
+  background-color: #111111;
+}
+.footer-container a {
+  text-decoration: none;
+}
+.footer-container ul {
+  list-style: none;
+}
+.footer-container ul li {
+  padding: 5px 0;
+}
+.footer-container ul li span {
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+}
+
+.footer-lists {
+  position: absolute;
+  top: 40px;
+  left: -20px;
+}
+.footer-lists .list-3 {
+  position: absolute;
+  width: 200px;
+}
+.footer-lists .list-2 li:not(:first-child) span,
+.footer-lists .list-3 ul li:not(:first-child) span {
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 0.5;
+}
+.footer-lists .list-2 li:not(:first-child):hover span,
+.footer-lists .list-3 ul li:not(:first-child):hover span {
+  opacity: 1;
+}
+.footer-lists .list {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.social-links {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.social-links div {
+  opacity: 0.5;
+}
+.social-links div:hover {
+  opacity: 1;
+}
+.social-links .link-container {
+  display: inline-block;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.social-links .link-container i {
+  color: #111111;
+  font-size: 20px;
+}
+.social-links .twitter-link {
+  padding: 5px 0 0 5px;
+}
+.social-links .facebook-link {
+  padding: 5px 0 0 8px;
+}
+.social-links .youtube-link {
+  padding: 5px 0 0 4px;
+}
+.social-links .instagram-link {
+  padding: 5px 0 0 6.5px;
+}
+
+.left-bottom-part {
+  position: absolute;
+  bottom: 15px;
+  left: 50px;
+}
+.left-bottom-part div i,
+.left-bottom-part div span {
+  color: #fff;
+  font-size: 13px;
+}
+.left-bottom-part div #ARR {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 200;
+  opacity: 0.5;
+}
+
+.right-bottom-part {
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}
+.right-bottom-part ul {
+  list-style: none;
+}
+.right-bottom-part ul li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.right-bottom-part a {
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 0.5;
+  color: #fff;
+}
+.right-bottom-part a:hover {
+  opacity: 1;
+}
+.right-bottom-part #CA {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+
 /*# sourceMappingURL=main.css.map */
