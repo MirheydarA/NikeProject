@@ -310,4 +310,97 @@ a {
   text-decoration: none;
 }
 
+.popular-right-now-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.popular-right-now-title button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  margin-left: 10px;
+}
+
+.popular-right-now {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.popular-right-now-card1 {
+  cursor: pointer;
+  width: 593px;
+  height: 690px;
+}
+.popular-right-now-card1-desc {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-right-now-card1-desc span {
+  padding-right: 20px;
+}
+.popular-right-now-card2 {
+  cursor: pointer;
+  width: 593px;
+  height: 690px;
+}
+.popular-right-now-card2-desc {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-right-now-card2-desc span {
+  padding-right: 20px;
+}
+.popular-right-now-card3 {
+  cursor: pointer;
+  width: 593px;
+  height: 690px;
+}
+.popular-right-now-card3-desc {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-right-now-card3-desc span {
+  padding-right: 20px;
+}
+
+.NOL-protection-title {
+  margin-left: 40px;
+}
+
+.NOL-protection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.NOL-protection-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.NOL-protection-desc-description {
+  text-align: center;
+}
+.NOL-protection-desc-description h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.NOL-protection-desc-btn {
+  width: 79.38px;
+  height: 38px;
+  background-color: #000;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NOL-protection-desc-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
