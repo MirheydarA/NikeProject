@@ -460,3 +460,236 @@ ul{
     right: 30px;
   }
 }
+
+.tee-up-title {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.tee-up {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin-top: 20px;
+
+
+  &-img-pt1 {
+      width: 910px;
+      height: 952px;
+      position: relative;
+      background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/66910ca7-1578-4e69-9c30-91e858a66c3a/nike-just-do-it.jpg);
+
+      &-desc {
+          color: aliceblue;
+          position: absolute;
+          bottom: 20px;
+          left: 50px;
+
+          p{
+              line-height: 5px;
+          }
+
+      }
+
+      &-btn {
+          width: 79.38px;
+          height: 38px;
+          background-color: $white;
+          border-radius: 20px;
+          padding: 6px 20px;
+          margin-top: 20px;
+
+          a {
+              text-decoration: none;
+              color: $black;
+          }
+      }
+
+  }
+
+  &-img-pt2 {
+      width: 910px;
+      height: 952px;
+      background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_869,c_limit/818383a5-01a9-4421-83b0-b239f063d6ae/nike-just-do-it.jpg);
+      position: relative;
+      background-size: cover;
+
+      &-desc {
+          color: aliceblue;
+          position: absolute;
+          bottom: 20px;
+          left: 50px;
+
+          p{
+              line-height: 5px;
+          }
+
+      }
+
+      &-btn {
+          width: 79.38px;
+          height: 38px;
+          background-color: $white;
+          border-radius: 20px;
+          padding: 6px 20px;
+          margin-top: 20px;
+
+          a {
+              text-decoration: none;
+              color: $black;
+          }
+      }
+  }
+}
+
+.best-of-airmax-title{
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.best-of-airmax{
+  &-img{
+      width: 1824;
+      height: 1198;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+  &-dec-act{
+      text-align: center;
+      margin-top: 20px;
+      h3{
+          font-size: 50px;
+          font-weight: 700;
+      }
+  }
+  &-buttons{
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      div{
+          width: 147px;
+          height: 38px;
+          border-radius: 40px;
+          background-color: $black;
+          align-items: center;
+          text-align: center;
+          padding: 6px 20px;
+          
+      }
+      a{           
+          color: $white;
+          text-decoration: none;
+          
+      }
+  }
+}
+
+.popular-right-now-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  h3{
+
+  }
+
+  button{
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: none;
+      margin-left: 10px;
+
+  }
+}
+
+.popular-right-now{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+  &-card1{
+      cursor: pointer;
+      width: 593px;
+      height: 690px;
+      &-desc{
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-between;
+          span{
+              padding-right: 20px;
+          }
+      }
+  }
+
+  &-card2{
+      cursor: pointer;
+      width: 593px;
+      height: 690px;
+      &-desc{
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-between;
+          span{
+              padding-right: 20px;
+          }
+      }
+  }
+
+  &-card3{
+      cursor: pointer;
+      width: 593px;
+      height: 690px;
+
+      &-desc{
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-between;
+          span{
+              padding-right: 20px;
+          }
+      }
+  }
+}
+
+.NOL-protection-title{
+  margin-left: 40px;
+}
+
+.NOL-protection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+
+  &-desc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &-description{
+          text-align: center;
+          h3{
+              font-size: 50px;
+              font-weight: 700;
+          }
+      }
+
+      &-btn{
+          width: 79.38px;
+          height: 38px;
+          background-color: $black;
+          
+          border-radius: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          a{
+              text-decoration: none;
+              color: $white;
+          }
+      }
+  }
+
+}
