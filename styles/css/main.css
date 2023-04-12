@@ -80,6 +80,12 @@ a {
 .header__nav-actions-search input:hover {
   background-color: #E1E1E1;
 }
+.header__nav-actions-search .heart-icon {
+  display: inline-block;
+}
+.header__nav-actions-search .basket-icon {
+  display: inline-block;
+}
 .header__nav-actions-search button {
   width: 40px;
   height: 36px;
@@ -104,7 +110,6 @@ a {
   background-color: #E1E1E1;
   width: 80px;
   height: 80px;
-  border-radius: 50%;
 }
 
 .sale-dropdown {
@@ -558,12 +563,12 @@ a {
 
 .popular-right-now {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 50px;
 }
 .popular-right-now-card1 {
   cursor: pointer;
-  width: 30%;
+  width: 32%;
 }
 .popular-right-now-card1 img {
   width: 100%;
@@ -578,22 +583,22 @@ a {
 }
 .popular-right-now-card2 {
   cursor: pointer;
-  width: 30%;
+  width: 32%;
 }
 .popular-right-now-card2 img {
   width: 100%;
 }
-.popular-right-now-desc {
+.popular-right-now-card2-desc {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
-.popular-right-now-desc span {
+.popular-right-now-card2-desc span {
   padding-right: 20px;
 }
 .popular-right-now-card3 {
   cursor: pointer;
-  width: 30%;
+  width: 32%;
 }
 .popular-right-now-card3 img {
   width: 100%;
@@ -650,6 +655,60 @@ a {
 .NOL-protection-desc-btn a {
   text-decoration: none;
   color: #fff;
+}
+
+.trending_now {
+  margin: 0 50px;
+}
+.trending_now-title {
+  margin-top: 100px;
+}
+.trending_now-title h2 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.trending_now-img {
+  position: relative;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.trending_now-img img {
+  width: 100%;
+}
+.trending_now-img p {
+  position: absolute;
+  font-weight: 1000;
+  font-size: 60px;
+  letter-spacing: -5px;
+  word-spacing: 8px;
+  left: 3%;
+  top: 15%;
+}
+.trending_now-img span {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+}
+.trending_now-img button {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: #000;
+  border-radius: 40px;
+  padding-bottom: 8px;
+  padding-left: 2px;
+  padding-top: 5px;
+  margin-top: 50px;
+  left: 3%;
+  top: 50%;
+}
+.trending_now-img button a {
+  text-decoration: none;
+  color: #fff;
+}
+.trending_now-img button:hover {
+  background-color: rgb(192, 192, 192);
 }
 
 /*# sourceMappingURL=main.css.map */

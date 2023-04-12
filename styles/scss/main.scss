@@ -94,7 +94,13 @@ a {
         background-color: $mercuri;
       }
     }
+    .heart-icon{
+      display: inline-block;
 
+    }
+    .basket-icon{
+      display: inline-block;
+    }
 
     button {
       width: 40px;
@@ -120,8 +126,8 @@ a {
       background-color: $mercuri;
       width: 80px;
       height: 80px;
-      border-radius: 50%;
     }
+
   }
 }
 .sale-dropdown {
@@ -637,13 +643,12 @@ ul{
 
 .popular-right-now{
  display: flex;
-//  flex: 1;
- justify-content: space-between;
+ justify-content: space-around;
  margin: 0 50px;
   
   &-card1{
       cursor: pointer;
-      width: 30%;
+      width: 32%;
 
 
 img{
@@ -662,24 +667,26 @@ img{
 
   &-card2{
       cursor: pointer;
-      width: 30%;
+      width: 32%;
 
 
          img{
           width: 100%;
         }
-      }
+      
       &-desc{
           margin-top: 15px;
           display: flex;
           justify-content: space-between;
           span{
-              padding-right: 20px;
+            padding-right: 20px;
+              
           }
       }
+    }
       &-card3{
           cursor: pointer;
-          width: 30%;
+          width: 32%;
     
     img{
       width: 100%;
@@ -746,4 +753,60 @@ img{
       }
   }
 
+}
+
+
+.trending_now{
+  margin: 0 50px;
+  &-title{
+    margin-top: 100px;
+    h2{
+      font-weight: 500;
+      font-size: 25px;
+    }
+  }
+  &-img{
+    position: relative;
+    cursor: pointer;
+    margin-top: 30px;
+    img{
+      width: 100%;
+    }
+    p{
+      position: absolute;
+      font-weight: 1000;
+      font-size: 60px;
+      letter-spacing: -5px;
+      word-spacing: 8px; 
+      left: 3%;
+      top: 15%;
+    }
+    span{
+      position: absolute;
+      left: 3%;
+      top: 50%;
+    }
+    button{
+      position: absolute;
+      width: 90px;
+      height: 40px;
+      border: none;
+      background-color: $black;
+      border-radius: 40px;
+      padding-bottom: 8px;
+      padding-left: 2px;
+      padding-top: 5px;
+      margin-top: 50px;
+      left: 3%;
+      top: 50%;
+
+      a{
+        text-decoration: none;
+        color: $white;
+      }
+      &:hover{
+        background-color: rgb(192, 192, 192);
+      }
+    }
+  }
 }
