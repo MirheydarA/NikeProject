@@ -90,7 +90,12 @@ a {
       border: none;
       border-radius: 50px;
       background-color: $wildsand;
+      &:hover{
+        background-color: $mercuri;
+      }
     }
+
+
     button {
       width: 40px;
       height: 36px;
@@ -463,19 +468,25 @@ ul{
 
 .tee-up-title {
   margin-top: 100px;
-  margin-left: 30px;
+  margin-left: 50px;
+  h2{
+    font-weight: 500;
+    font-size: 25px;
+  }
 }
 
 .tee-up {
   display: flex;
   justify-content: space-around;
-  padding: 0 20px;
-  margin-top: 20px;
+  // margin-top: 20px;
+  margin: 20px 50px 0;
+  gap: 10px;
+
 
 
   &-img-pt1 {
       width: 910px;
-      height: 952px;
+      height: 741px;
       position: relative;
       background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/66910ca7-1578-4e69-9c30-91e858a66c3a/nike-just-do-it.jpg);
 
@@ -499,6 +510,10 @@ ul{
           padding: 6px 20px;
           margin-top: 20px;
 
+      &-btn:hover{
+        background-color: $mercuri;
+      }    
+
           a {
               text-decoration: none;
               color: $black;
@@ -508,8 +523,8 @@ ul{
   }
 
   &-img-pt2 {
-      width: 910px;
-      height: 952px;
+      width: 941px;
+      height: 741px;
       background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_869,c_limit/818383a5-01a9-4421-83b0-b239f063d6ae/nike-just-do-it.jpg);
       position: relative;
       background-size: cover;
@@ -533,6 +548,9 @@ ul{
           border-radius: 20px;
           padding: 6px 20px;
           margin-top: 20px;
+      &-btn:hover{
+        background-color: $mercuri;
+      }    
 
           a {
               text-decoration: none;
@@ -544,24 +562,32 @@ ul{
 
 .best-of-airmax-title{
   margin-top: 100px;
-  margin-left: 40px;
+  margin-left: 50px;
+  h2{
+    font-weight: 500;
+    font-size: 25px;
+  }
 }
 
 .best-of-airmax{
+  margin: 0 50px;
   &-img{
-      width: 1824;
-      height: 1198;
       display: flex;
       justify-content: center;
       margin-top: 20px;
+
+      img{
+        width: 100%;
+      }
   }
 
   &-dec-act{
       text-align: center;
       margin-top: 20px;
       h3{
-          font-size: 50px;
-          font-weight: 700;
+          font-size: 60px;
+          font-weight: 1000;
+          letter-spacing: -5px;
       }
   }
   &-buttons{
@@ -590,9 +616,10 @@ ul{
 .popular-right-now-title{
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
-  h3{
-
+  margin: 0 50px;
+  h2{
+    font-weight: 500;
+    font-size: 25px;
   }
 
   button{
@@ -605,15 +632,24 @@ ul{
   }
 }
 
+
+
+
 .popular-right-now{
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+ display: flex;
+//  flex: 1;
+ justify-content: space-between;
+ margin: 0 50px;
   
   &-card1{
       cursor: pointer;
-      width: 593px;
-      height: 690px;
+      width: 30%;
+
+
+img{
+  width: 100%;
+}
+
       &-desc{
           margin-top: 15px;
           display: flex;
@@ -626,8 +662,13 @@ ul{
 
   &-card2{
       cursor: pointer;
-      width: 593px;
-      height: 690px;
+      width: 30%;
+
+
+         img{
+          width: 100%;
+        }
+      }
       &-desc{
           margin-top: 15px;
           display: flex;
@@ -636,26 +677,32 @@ ul{
               padding-right: 20px;
           }
       }
-  }
-
-  &-card3{
-      cursor: pointer;
-      width: 593px;
-      height: 690px;
-
-      &-desc{
-          margin-top: 15px;
-          display: flex;
-          justify-content: space-between;
-          span{
-              padding-right: 20px;
+      &-card3{
+          cursor: pointer;
+          width: 30%;
+    
+    img{
+      width: 100%;
+    }
+    
+          &-desc{
+              margin-top: 15px;
+              display: flex;
+              justify-content: space-between;
+              span{
+                  padding-right: 20px;
+              }
           }
       }
   }
-}
 
 .NOL-protection-title{
-  margin-left: 40px;
+  margin-left: 50px;
+  margin-bottom: 2  0px;
+  h2{
+    font-weight: 400;
+    font-size: 25px;
+  }
 }
 
 .NOL-protection{
@@ -663,6 +710,13 @@ ul{
   align-items: center;
   flex-direction: column;
   
+img{
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 93%;
+
+}
+
 
   &-desc{
       display: flex;
