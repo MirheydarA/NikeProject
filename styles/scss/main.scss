@@ -116,18 +116,20 @@ a {
       background-color: $mercuri;
     }
     a {
-      width: 40px;
-      height: 40px;
+      // width: 40px;
+      // height: 40px;
       color: $black;
       margin-left: 20px;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-bottom: 7px;
+      padding-top: 5px;
     }
     a:hover {
       border-radius: 50%;
       background-color: $mercuri;
-      width: 80px;
-      height: 80px;
-    }
 
+    }
   }
 }
 .sale-dropdown {
@@ -808,5 +810,163 @@ img{
         background-color: rgb(192, 192, 192);
       }
     }
+  }
+}
+
+.celebration_essential{
+  margin: 0 50px;
+  &-title{
+    margin-top:100px;
+h2{
+  font-weight: 500;
+  font-size: 25px;
+}
+  }
+
+  &-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    a{
+      color: $white;
+      text-decoration: none;
+    }
+    p{
+      margin-top: 20px;
+      font-weight: 1000;
+      font-size: 60px;
+      letter-spacing: -5px;
+      word-spacing: 8px; 
+      left: 3%;
+      top: 15%;
+      margin-bottom: 0;
+    }
+    button{
+      width: 90px;
+      height: 40px;
+      border: none;
+      background-color: $black;
+      border-radius: 40px;
+      padding-bottom: 8px;
+      padding-left: 2px;
+      padding-top: 5px;
+      margin-top: 30px;
+      left: 3%;
+      top: 50%;
+
+      
+    }
+  }
+
+  img{
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  margin: 30px 50px 250px;
+  
+  &-box-1{
+    width: 33.3%;
+
+    img{
+      width: 100%;
+    }
+
+    &-desc{
+      display: flex;
+      flex-direction: column;
+      margin: -100px;
+      margin-left: 40px;
+      width: 400px;
+      p{
+        margin: 0;
+      }
+      span{
+        font-weight: 400;
+        font-size: 25px;
+      }
+    }
+  }
+
+  &-box-2{
+    width: 33.3%;
+
+    img{
+      width: 100%;
+    }
+
+    &-desc{
+      display: flex;
+      flex-direction: column;
+      margin: -135px;
+      margin-left: 40px;
+      width: 350px;
+    
+    p{
+      margin: 0;
+    }
+    span{
+      font-weight: 400;
+      font-size: 25px;
+    }
+  }
+}
+
+  &-box-3{
+    width: 33.3%;
+
+    img{
+      width: 100%;
+    }
+
+    &-desc{
+      display: flex;
+      flex-direction: column;
+      margin: -100px;
+      margin-left: 40px;
+      width: 400px;    
+      p{
+        margin: 0;
+      }
+      span{
+        font-weight: 400;
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+.info{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 300px;
+  margin-bottom: 80px;
+
+  li{
+    list-style: none;
+    margin-top: 10px;
+    color: $gray;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  li:hover{
+    color: $black;
+  }
+
+  h4{
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
   }
 }
